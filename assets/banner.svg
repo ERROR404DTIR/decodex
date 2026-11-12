@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340" role="img" aria-label="decodex: decode JWT, Base64, URL, hex and timestamps">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#1e1b4b"/></linearGradient>
+    <linearGradient id="ac" x1="0" x2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+    <clipPath id="type"><rect x="40" y="60" height="70" width="0"><animate attributeName="width" from="0" to="230" dur="1.2s" begin="0.3s" fill="freeze"/></rect></clipPath>
+  </defs>
+  <rect width="900" height="340" rx="18" fill="url(#bg)"/>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+    <text x="40" y="112" font-size="52" font-weight="700" fill="url(#ac)" clip-path="url(#type)">decodex</text>
+    <rect y="68" width="4" height="50" fill="#22d3ee"><animate attributeName="x" from="40" to="262" dur="1.2s" begin="0.3s" fill="freeze"/><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+    <text x="40" y="152" font-size="18" fill="#94a3b8" opacity="0">JWT / Base64 / URL / hex / timestamps, decoded in one command<animate attributeName="opacity" from="0" to="1" begin="1.6s" dur="0.6s" fill="freeze"/></text>
+    <circle cx="790" cy="100" r="46" fill="none" stroke="url(#ac)" stroke-width="3" stroke-dasharray="18 12"><animateTransform attributeName="transform" type="rotate" from="0 790 100" to="360 790 100" dur="14s" repeatCount="indefinite"/></circle>
+    <text x="790" y="110" font-size="28" font-weight="700" text-anchor="middle" fill="#e2e8f0">{ }</text>
+    <rect x="40" y="185" width="820" height="130" rx="10" fill="#020617" stroke="#334155"/>
+    <circle cx="62" cy="203" r="5" fill="#f87171"/><circle cx="80" cy="203" r="5" fill="#fbbf24"/><circle cx="98" cy="203" r="5" fill="#34d399"/>
+    <text x="64" y="240" font-size="16" fill="#e2e8f0" opacity="0">$ decodex eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE5MzU...<set attributeName="opacity" to="1" begin="2.2s"/></text>
+    <text x="64" y="268" font-size="16" fill="#22d3ee" opacity="0">[jwt]  header: {"alg": "HS256"}<set attributeName="opacity" to="1" begin="3s"/></text>
+    <text x="64" y="294" font-size="16" fill="#34d399" opacity="0">exp: 2030-12-31 00:00:00 UTC  (still valid)<set attributeName="opacity" to="1" begin="3.8s"/></text>
+  </g>
+</svg>
