@@ -1,5 +1,7 @@
 <p align="center"><img src="assets/banner.svg" alt="decodex" width="100%"></p>
 
+<p align="center"><img src="assets/readme-banner.svg" alt="Animated Decodex data transformation banner" width="100%"></p>
+
 <p align="center">
   <img src="https://img.shields.io/badge/python-3.8%2B-22d3ee" alt="Python 3.8+">
   <img src="https://img.shields.io/badge/dependencies-none-a78bfa" alt="No dependencies">
